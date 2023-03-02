@@ -1,11 +1,12 @@
-// import logo from './logo.svg';
+import About from './About';
+import Hero from './Hero';
 
 const App = () => {
   return (
-    <>
-      <h1>Hello world</h1>
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
-    </>
+    <div className="container">
+      <Hero />
+      <About />
+    </div>
   );
 };
 

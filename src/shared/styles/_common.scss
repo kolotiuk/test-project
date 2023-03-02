@@ -1,0 +1,31 @@
+body {
+  color: #fff;
+  background-color: #070a0f;
+  font-family: SFproRegular, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  @media (min-width: 768px) {
+    padding: 0 32px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 10px;
+  }
+
+  @media (max-width: 1384px) {
+    max-width: 1384px;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

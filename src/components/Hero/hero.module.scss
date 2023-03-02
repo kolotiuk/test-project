@@ -1,0 +1,45 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    padding-left: 160px;
+    padding-right: 70px;
+  }
+
+  &Content {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @media (min-width: 1200px) {
+      height: auto;
+    }
+  }
+
+  &Title {
+    font-family: SFproSemiBold;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  &SubTitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  &Location {
+    font-family: SFproMedium;
+  }
+
+  &Photo {
+    display: flex;
+    align-items: flex-end;
+  }
+}
