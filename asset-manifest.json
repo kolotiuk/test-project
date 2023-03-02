@@ -1,10 +1,34 @@
 {
   "files": {
-    "main.js": "/test-project/static/js/main.38f1733c.js",
+    "main.css": "/test-project/static/css/main.692fdc90.css",
+    "main.js": "/test-project/static/js/main.03ca6dab.js",
+    "static/media/proj1@3x.png": "/test-project/static/media/proj1@3x.cb5c8084868889f6b34f.png",
+    "static/media/aboutBg@3x.jpg": "/test-project/static/media/aboutBg@3x.8dcbbe829b179d09a783.jpg",
+    "static/media/proj2@3x.png": "/test-project/static/media/proj2@3x.6c6d7a7fc006e0d3fe58.png",
+    "static/media/proj1@2x.png": "/test-project/static/media/proj1@2x.59aeaa3b70c7f2b76356.png",
+    "static/media/aboutBg@2x.jpg": "/test-project/static/media/aboutBg@2x.74a2b232c0aba346acb5.jpg",
+    "static/media/proj3@3x.png": "/test-project/static/media/proj3@3x.f3ddd34357b7b7fa0c52.png",
+    "static/media/photo@3x.png": "/test-project/static/media/photo@3x.06971e35b3b9f77153b8.png",
+    "static/media/proj2@2x.png": "/test-project/static/media/proj2@2x.f10488a6bde5b525c8b9.png",
+    "static/media/proj3@2x.png": "/test-project/static/media/proj3@2x.3c34d87eac2ab894955d.png",
+    "static/media/proj4@3x.png": "/test-project/static/media/proj4@3x.dc0d6ce737cee9cc89fb.png",
+    "static/media/photo@2x.png": "/test-project/static/media/photo@2x.7dd935db8f9d4aa72289.png",
+    "static/media/aboutBg@1x.jpg": "/test-project/static/media/aboutBg@1x.5f05fb8bf8fe9a5ad84f.jpg",
+    "static/media/proj1@1x.png": "/test-project/static/media/proj1@1x.ae0c4d16d17054a84e8a.png",
+    "static/media/proj4@2x.png": "/test-project/static/media/proj4@2x.07476ca7407474d49955.png",
+    "static/media/proj3@1x.png": "/test-project/static/media/proj3@1x.154c1df481f6c1bce477.png",
+    "static/media/proj2@1x.png": "/test-project/static/media/proj2@1x.9498381e306454ae531b.png",
+    "static/media/photo@1x.png": "/test-project/static/media/photo@1x.cec91b2b49adba3f4d22.png",
+    "static/media/proj4@1x.png": "/test-project/static/media/proj4@1x.d16c91485141a51e3995.png",
+    "static/media/SF-Pro-Display-Semibold.woff": "/test-project/static/media/SF-Pro-Display-Semibold.d562c64f0f1a873be36d.woff",
+    "static/media/SF-Pro-Display-Medium.woff": "/test-project/static/media/SF-Pro-Display-Medium.7ff35c82f5b24bc69ad0.woff",
+    "static/media/SF-Pro-Display-Regular.woff": "/test-project/static/media/SF-Pro-Display-Regular.800b8a27efcff5b8ab4b.woff",
     "index.html": "/test-project/index.html",
-    "main.38f1733c.js.map": "/test-project/static/js/main.38f1733c.js.map"
+    "main.692fdc90.css.map": "/test-project/static/css/main.692fdc90.css.map",
+    "main.03ca6dab.js.map": "/test-project/static/js/main.03ca6dab.js.map"
   },
   "entrypoints": [
-    "static/js/main.38f1733c.js"
+    "static/css/main.692fdc90.css",
+    "static/js/main.03ca6dab.js"
   ]
 }
