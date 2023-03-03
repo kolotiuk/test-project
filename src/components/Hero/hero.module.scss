@@ -4,6 +4,17 @@
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 12px;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    // align-items: inherit;
+    // text-align: start;
+  }
+
+  @media (min-width: 900px) {
+    align-items: inherit;
+  }
 
   @media (min-width: 1200px) {
     flex-direction: row;
@@ -19,6 +30,14 @@
     align-items: center;
     text-align: center;
 
+    @media (min-width: 768px) {
+      height: auto;
+      align-items: flex-start;
+      text-align: start;
+      width: 50%;
+      // flex-grow: ;
+    }
+
     @media (min-width: 1200px) {
       height: auto;
     }
@@ -26,8 +45,16 @@
 
   &Title {
     font-family: SFproSemiBold;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 20px;
+
+    @media (min-width: 480px) {
+      font-size: 46px;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 50px;
+    }
   }
 
   &SubTitle {
@@ -40,7 +67,24 @@
   }
 
   &Photo {
+    // width: 420px;
     display: flex;
     align-items: flex-end;
+
+    @media (min-width: 500px) {
+      width: 420px;
+    }
+
+    @media (min-width: 768px) {
+      width: 100%;
+    }
+
+    @media (min-width: 900px) {
+      justify-content: flex-end;
+    }
+
+    @media (min-width: 1020px) {
+      width: 70%;
+    }
   }
 }
