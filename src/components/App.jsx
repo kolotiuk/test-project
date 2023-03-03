@@ -6,8 +6,8 @@ const App = () => {
   return (
     <div className="container">
       <Hero />
-      {/* <About /> */}
-      {/* <Projects /> */}
+      <About />
+      <Projects />
     </div>
   );
 };
