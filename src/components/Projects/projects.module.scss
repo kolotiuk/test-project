@@ -1,15 +1,12 @@
 .projects {
   display: grid;
-  // grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 
   @media (min-width: 600px) {
     font-size: 30px;
-    // grid-template-columns: repeat(2, 1fr);
   }
 
   @media (min-width: 768px) {
-    // font-size: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -47,7 +44,6 @@
     border-radius: 40px;
     font-family: SFproMedium;
     font-size: 10px;
-    // font-size: 14px;
     line-height: 1.43;
     letter-spacing: 0.1px;
 
@@ -64,29 +60,19 @@
     margin-bottom: 20px;
     font-family: SFproMedium;
     font-size: 20px;
-    // font-size: 40px;
     line-height: 1.19;
 
     @media (min-width: 460px) {
       font-size: 30px;
     }
-
-    @media (min-width: 768px) {
-      // font-size: 40px;
-    }
   }
 
   &Text {
     font-size: 14px;
-    // font-size: 20px;
     line-height: 1.19;
 
     @media (min-width: 460px) {
       font-size: 16px;
-    }
-
-    @media (min-width: 768px) {
-      // font-size: 20px;
     }
   }
 }

@@ -1,8 +1,7 @@
 .about {
   max-width: 1364px;
   margin: 0 auto 12px auto;
-  padding: 100px 0;
-
+  padding: 50px 0;
   border-radius: 20px;
 
   background-repeat: no-repeat;
@@ -38,7 +37,7 @@
   }
 
   @media (min-width: 768px) {
-    padding: 200px 0;
+    padding: 100px 0;
   }
 
   &Content {
