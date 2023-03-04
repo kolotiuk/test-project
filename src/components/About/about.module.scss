@@ -36,10 +36,6 @@
       url(../../assets/images/about/aboutBg@3x.jpg);
   }
 
-  @media (min-width: 768px) {
-    padding: 100px 0;
-  }
-
   &Content {
     text-align: center;
     font-size: 30px;
@@ -47,7 +43,7 @@
     letter-spacing: 0.02em;
 
     @media (min-width: 768px) {
-      font-size: 80px;
+      font-size: 60px;
     }
   }
 
