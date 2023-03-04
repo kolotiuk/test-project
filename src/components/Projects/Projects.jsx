@@ -17,20 +17,19 @@ const Projects = () => {
       return (
         <li key={title} id="first" className={s.projectsItem}>
           <picture>
-            <img
+            <source
               className={s.projectsImage}
-              srcSet={
-                (`${src1xwebP} 1x,${src2xwebP} 2x,${src3xwebP} 3x`,
-                `${src1x} 1x,${src2x} 2x,${src3x} 3x`)
-              }
+              srcSet={`${src1xwebP} 1x,${src2xwebP} 2x,${src3xwebP} 3x`}
               alt="Img"
-              // type="image/webp"
+              type="image/webp"
             />
-            {/* <img
+            <source
               className={s.projectsImage}
               srcSet={`${src1x} 1x,${src2x} 2x,${src3x} 3x`}
               alt="Img"
-            /> */}
+              type="image/jpeg"
+            />
+            <img src={src1x} alt="Imag" />
           </picture>
           {/* <img
           className={s.projectsImage}

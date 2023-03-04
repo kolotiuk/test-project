@@ -13,6 +13,7 @@
   &Item {
     position: relative;
     border-radius: 20px;
+    overflow: hidden;
 
     &::after {
       content: '';
@@ -30,12 +31,16 @@
       );
       // z-index: 1;
     }
+
+    img {
+      border-radius: 20px;
+    }
   }
 
-  &Image {
-    position: relative;
-    border-radius: 20px;
-  }
+  // &Image {
+  //   position: relative;
+  //   border-radius: 20px;
+  // }
 
   &Content {
     position: absolute;
