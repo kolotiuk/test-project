@@ -26,8 +26,11 @@ import image4_2xweb from 'assets/images/projects/proj4@2x.webp';
 import image4_3x from 'assets/images/projects/proj4@3x.jpg';
 import image4_3xweb from 'assets/images/projects/proj4@3x.webp';
 
+import { data } from './data';
+
 export const projects = [
   {
+    id: '1',
     button: 'MOBILE',
     title: 'Social Video Network',
     text: 'Short-videos mobile app with token rewards, where users can exchange their tokens to real money',
@@ -39,6 +42,7 @@ export const projects = [
     src3xwebP: image1_3xweb,
   },
   {
+    id: '2',
     button: 'WEB 3.0',
     title: 'NFT Marketplace',
     text: 'Home to the next generation of creators. Discover the best and latest NFT collections',
@@ -50,6 +54,7 @@ export const projects = [
     src3xwebP: image2_3xweb,
   },
   {
+    id: '3',
     button: 'MOBILE',
     title: 'Digital Characters',
     text: 'Create digital version of yourself, buy/sell as NFT, change cloth and any other accessories  and move into the Metaverse worlds',
@@ -61,6 +66,7 @@ export const projects = [
     src3xwebP: image3_3xweb,
   },
   {
+    id: '4',
     button: 'MAC OS',
     title: 'Mobile NFT Marketplace',
     text: 'Connect all your favorite crypto-exchanges via API keys, and enjoy modular structer, effisient user experience and custom indicators.',
@@ -72,3 +78,7 @@ export const projects = [
     src3xwebP: image4_3xweb,
   },
 ];
+
+export const getProjectsById = projectsId => {
+  return data.find(project => project.id === projectsId);
+};
